@@ -1,23 +1,11 @@
 {
-  "name": "webproyect",
+  "name": "proyecto",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/carzser/BootstrapProyect.git"
-  },
-  "author": "Carzser, Fazd",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/carzser/BootstrapProyect/issues"
-  },
-  "homepage": "https://github.com/carzser/BootstrapProyect#readme",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "express": "^4.17.1"
-  }
+  "author": "",
+  "license": "ISC"
 }
