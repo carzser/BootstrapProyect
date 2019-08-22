@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="/data_lib/bootstrap.min.css">
+  <link rel="stylesheet" href="/data_lib/style.css">
+
   <title>Document</title>
 </head>
 <style>
@@ -14,7 +16,8 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light color-bar">
+    <img src="/data_lib/img/football.svg" class="logo" alt="logo">
     <a class="navbar-brand" href="#">Tienda de deportes</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +45,15 @@
           </div>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
+      <form class="form-inline my-2 my-lg-0" id="busqueda">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
+      <button class="btn btn-outline-success my-2 my-sm-0 space1" type="submit">Log-in</button>
+      <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Sign-in</button>
     </div>
   </nav>
 
-  <button class="btn btn-primary"> Boton prueba </button>
 
   <div class="bd-example">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -60,24 +64,29 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/img/img1.jpg" class="d-block w-100" alt="primera">
+          <img src="/img/baloncesto.jpg" class="d-block w-100" alt="primera">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h5>Baloncesto</h5>
+            <p>
+              Ven y observa nuestros balones, tenis y ropa para ser el mejor jugador de baloncesto del mundo.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/img/img2.jpg" class="d-block w-100" alt="segunda">
+          <img src="/img/futbol.jpg" class="d-block w-100" alt="segunda">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h5>Futbol</h5>
+            <p>¿Estás listo para ser el proximo Messi? Ven y conoce los productos que tenemos
+              para ti.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="/img/img3.jpg" class="d-block w-100" alt="tercera">
+          <img src="/img/baseball.jpg" class="d-block w-100" alt="tercera">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h5>Baseball</h5>
+            <p>Observa nuestro catalogo de bolas, bates, guantes y todo lo que usarás para ser el
+              jugador que deseas ser.</p>
           </div>
         </div>
       </div>
@@ -92,9 +101,52 @@
     </div>
   </div>
 
+  <footer class="page-footer font-small blue pt-4">
 
-  <script src="data_lib/jquery.js"> </script>
-  <script src="data_lib/bootstrap.js"></script>
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+
+    <script src="data_lib/jquery.js"> </script>
+    <script src="data_lib/bootstrap.js"></script>
 
 </body>
 
